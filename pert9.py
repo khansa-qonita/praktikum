@@ -218,6 +218,7 @@ def main():
     scoreTextRect = scoreText.get_rect()
     scoreTextRect.center = (20, HEIGHT-10)
 
+
     livesText = font.render("Lives", True, WHITE)
     livesTextRect = livesText.get_rect()
     livesTextRect.center = (120, HEIGHT-10)
